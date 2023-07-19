@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+
+<head>
+    <title>Search Items</title>
+    <style>
+      /* CSS code for styling the search form, background, and background box */
+  
+      html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+  
+      body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: Arial, sans-serif;
+          background: linear-gradient(to bottom, #78d8ed, #e143e4);
+      }
+  
+      .container {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 30px;
+          border-radius: 30px;
+      }
+  
+      h1 {
+          text-align: center;
+          font-size: 40px;
+          margin: 0;
+          margin-bottom: 40px;
+      }
+  
+      form {
+          text-align: center;
+          margin-top: 20px;
+      }
+  
+      input[type="text"] {
+          padding: 20px;
+          width: 250px;
+          border: 5px solid #ccc;
+          border-radius: 4px;
+          margin-top: 20px;
+      }
+  
+      button[type="submit"] {
+          padding: 25px 40px;
+          background-color: #4CAF50;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+  
+      /* Additional styles for search results if needed */
+  </style>
+  
+  
+   
+
+</head>
+<body>
+  <div class="container">
+      <h1>Search a Voter</h1>
+      <form method="get" action="search.php">
+          <input type="text" name="search" placeholder="Enter Voter's ID number ">
+          <button type="submit">Search</button>
+      </form>
+  </div>
+</body>
+</html>
